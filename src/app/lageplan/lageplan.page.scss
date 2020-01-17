@@ -1,10 +1,31 @@
 #lageplan-picture{
-    width: 1754px;
+    width: calc((100vh - 56px) * 1.42 /*Dimensions of the background-image*/);
     height: calc(100vh - 56px);
     background-image: url(../../assets/lageplan/19035_JWS_WIR_Dill_2020_06_Lageplan_01e-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+#lageplan-container{
     overflow-x: scroll;;
+} 
+
+/* @media (min-height: 550px){
+    #lageplan-picture{
+        width: calc((100vh - 56px) * 1.31);
+    }
 }
+@media (min-height: 750px){
+    #lageplan-picture{
+        width: calc((100vh - 56px) * 1.33);
+    }
+}
+@media (min-height: 1000px){
+    #lageplan-picture{
+        width: calc((100vh - 56px) * 1.35);
+    }
+}
+@media (min-height: 1200px){
+    #lageplan-picture{
+        width: calc((100vh - 56px) * 1.35);
+    }
+} */
