@@ -6,7 +6,8 @@
     background-size: cover;
 }
 #lageplan-container{
-    overflow-x: scroll;;
+    overflow: hidden;
+    overflow-x: scroll;
 } 
 
 /* @media (min-height: 550px){
