@@ -10,7 +10,17 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar showCancelButton="focus"></ion-searchbar>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button fill="clear" color="light" (click)="openActionSheet()"><ion-icon name="settings"></ion-icon></ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-searchbar showCancelButton="focus"></ion-searchbar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
   <ion-list>
     <ion-item *ngFor="let item of items">
       <ion-label class="ion-text-wrap">

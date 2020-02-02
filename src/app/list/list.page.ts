@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import json from '../../assets/ausstellerverzeichnis/av.json';
+import { ActionSheetController } from '@ionic/angular';
 
 @Component({
   selector: 'app-list',
@@ -8,9 +9,48 @@ import json from '../../assets/ausstellerverzeichnis/av.json';
 })
 
 export class ListPage {
-  items: any = ListPage.addingHalleLetters(ListPage.sortHALLE(json));
-  //items: any = ListPage.sortHALLE(json);
-
+  items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
+  constructor(
+    private actionCtrl: ActionSheetController
+  ) { }
+  openActionSheet() {
+    this.actionCtrl.create({
+      buttons: [
+        {
+          text: "Alphabetisch",
+          icon: 'arrow-round-up',
+          handler: () => {
+            this.items = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
+          }
+        },
+        {
+          text: "Alphabetisch",
+          icon: 'arrow-round-down',
+          handler: () => {
+            this.items = ListPage.addingAlphabeticLetters(ListPage.sortCBA(json));
+          }
+        },
+        {
+          text: "Hallen",
+          icon: 'arrow-round-up',
+          handler: () => {
+            this.items = ListPage.addingHalleLetters(ListPage.sortHALLE(json));
+          }
+        },
+        {
+          text: "Hallen",
+          icon: 'arrow-round-down',
+          handler: () => {
+            this.items = ListPage.addingHalleLetters(ListPage.sortELLAH(json));
+          }
+        },
+        {
+          text: "Cancel",
+          role: 'cancel'
+        }
+      ]
+    }).then(ac => ac.present())
+  }
   static sortABC(array) {
     return array.sort((a, b) => {
       var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
