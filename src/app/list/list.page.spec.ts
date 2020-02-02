@@ -26,8 +26,7 @@ describe('ListPage', () => {
 
 describe('Ausstellerverzeichnis', () => {
 
-  describe('item json-array', () => {
-
+  describe('sorting', () =>{
     it('should sort the array A->B->C', () =>{
       const input = [
         {"Name": "alpha"},
@@ -39,11 +38,10 @@ describe('Ausstellerverzeichnis', () => {
         {"Name": "beta"},
         {"Name": "gamma"}
       ]
-
       expect(ListPage.sortABC(input)).toEqual(outcome);
-    })
+    });
 
-    it('should sort the array c->B->A', () =>{
+    it('should sort the array C->B->A', () =>{
       const input = [
         {"Name": "alpha"},
         {"Name": "gamma"},
@@ -54,10 +52,61 @@ describe('Ausstellerverzeichnis', () => {
         {"Name": "beta"},
         {"Name": "alpha"}
       ]
-
       expect(ListPage.sortCBA(input)).toEqual(outcome);
     })
 
+    it('should sort the attribute', () =>{
+      const input = [
+        {"Name": "aaa",
+        "Halle": "A"},
+        {"Name": "abb",
+        "Halle": "B"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "abc",
+        "Halle": "D"},
+      ]
+      const outcome = [
+        {"Name": "aaa",
+        "Halle": "A"},
+        {"Name": "abb",
+        "Halle": "B"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "abc",
+        "Halle": "D"},
+        
+      ]
+      expect(ListPage.sortHALLE(input)).toEqual(outcome);
+    });
+
+    it('should sort the attribute, otherway around', () =>{
+      const input = [
+        {"Name": "aaa",
+        "Halle": "A"},
+        {"Name": "abb",
+        "Halle": "B"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "abc",
+        "Halle": "D"},
+      ]
+      const outcome = [
+        {"Name": "abc",
+        "Halle": "D"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "abb",
+        "Halle": "B"},
+        {"Name": "aaa",
+        "Halle": "A"},
+        
+      ]
+      expect(ListPage.sortELLAH(input)).toEqual(outcome);
+    });
+  });
+
+  describe('item json-array', () => {
     it('should add alphabetic letter-object', () => {
       const input = [
         {"Name": "alpha"},
@@ -74,23 +123,68 @@ describe('Ausstellerverzeichnis', () => {
     ]
       expect(ListPage.addingAlphabeticLetters(input)).toEqual(outcome);
     });
+
+    it('should add halle letter-object', () => {
+      const input = [
+        {"Name": "aaa",
+        "Halle": "A"},
+        {"Name": "abb",
+        "Halle": "A"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "abc",
+        "Halle": "D"},
+      ]
+      const outcome = [
+        {"Name": "A"},
+        {"Name": "aaa",
+        "Halle": "A"},
+        {"Name": "abb",
+        "Halle": "A"},
+        {"Name": "C"},
+        {"Name": "acc",
+        "Halle": "C"},
+        {"Name": "D"},
+        {"Name": "abc",
+        "Halle": "D"},
+      ]
+      expect(ListPage.addingHalleLetters(input)).toEqual(outcome);
+    });
+    
+    it('should sort (ABC) and add letter', () =>{
+      const input = [
+        {"Name": "alpha"},
+        {"Name": "gamma"},
+        {"Name": "beta"}
+      ]
+      const outcome = [
+      {"Name": "A"},
+      {"Name": "alpha"},
+      {"Name": "B"},
+      {"Name": "beta"},
+      {"Name": "G"},
+      {"Name": "gamma"}
+    ]
+    expect(ListPage.addingAlphabeticLetters(ListPage.sortABC(input))).toEqual(outcome);
+    })
+
+    it('should sort (ABC) and add letter, even numbers', () =>{
+      const input = [
+        {"Name": "1A"},
+        {"Name": "Ga54"},
+        {"Name": "beta"}
+      ]
+      const outcome = [
+      {"Name": "1"},
+      {"Name": "1A"},
+      {"Name": "B"},
+      {"Name": "beta"},
+      {"Name": "G"},
+      {"Name": "Ga54"}
+    ]
+    expect(ListPage.addingAlphabeticLetters(ListPage.sortABC(input))).toEqual(outcome);
+    })
   });
 
-  it('should sort and add letter', () =>{
-    const input = [
-      {"Name": "alpha"},
-      {"Name": "gamma"},
-      {"Name": "beta"}
-    ]
-    const outcome = [
-    {"Name": "A"},
-    {"Name": "alpha"},
-    {"Name": "B"},
-    {"Name": "beta"},
-    {"Name": "G"},
-    {"Name": "gamma"}
-  ]
-  expect(ListPage.addingAlphabeticLetters(ListPage.sortABC(input))).toEqual(outcome);
-
-  })
+  
 });
