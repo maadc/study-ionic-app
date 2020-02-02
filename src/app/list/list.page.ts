@@ -55,7 +55,7 @@ export class ListPage {
   }
 
   ScrollToTop(){
-    this.content.scrollToTop(1500);
+    this.content.scrollToTop(500);
   }
 
   static sortABC(array) {
