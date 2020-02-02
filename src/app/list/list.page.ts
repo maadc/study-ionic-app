@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import json from '../../assets/ausstellerverzeichnis/av.json';
-import { ActionSheetController } from '@ionic/angular';
+import { ActionSheetController, IonContent } from '@ionic/angular';
 
 @Component({
   selector: 'app-list',
@@ -9,12 +9,14 @@ import { ActionSheetController } from '@ionic/angular';
 })
 
 export class ListPage {
+  @ViewChild(IonContent, {static: false}) content: IonContent;
   items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
-  constructor(
-    private actionCtrl: ActionSheetController
-  ) { }
+  
+  constructor(private ActionSheetController: ActionSheetController) {}
+
   openActionSheet() {
-    this.actionCtrl.create({
+    this.ActionSheetController.create({
+      header: 'Sortierung',
       buttons: [
         {
           text: "Alphabetisch",
@@ -51,6 +53,11 @@ export class ListPage {
       ]
     }).then(ac => ac.present())
   }
+
+  ScrollToTop(){
+    this.content.scrollToTop(1500);
+  }
+
   static sortABC(array) {
     return array.sort((a, b) => {
       var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
@@ -146,5 +153,4 @@ export class ListPage {
     }
     return newArray;
   }
-  
 }

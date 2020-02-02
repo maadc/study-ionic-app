@@ -9,17 +9,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-grid>
-    <ion-row>
-      <ion-col>
-        <ion-button fill="clear" color="light" (click)="openActionSheet()"><ion-icon name="settings"></ion-icon></ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-searchbar showCancelButton="focus"></ion-searchbar>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+<ion-content [scrollEvents]="true"
+>
   
   <ion-list>
     <ion-item *ngFor="let item of items">
@@ -35,9 +26,20 @@
       </div>
     </ion-item>
   </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button (click)="openActionSheet()">
+        <ion-icon slot="icon-only" name="settings"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="primary">
+      <ion-button (click)="ScrollToTop()">
+        <ion-icon slot="icon-only" name="arrow-round-up"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
