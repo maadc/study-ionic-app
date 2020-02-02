@@ -28,22 +28,69 @@ describe('Ausstellerverzeichnis', () => {
 
   describe('item json-array', () => {
 
-    it('should add alphabetic letter-object', () => {
+    it('should sort the array A->B->C', () =>{
       const input = [
-        {"name": "alpha"},
-        {"name": "beta"},
-        {"name": "gamma"}
+        {"Name": "alpha"},
+        {"Name": "gamma"},
+        {"Name": "beta"}
       ]
       const outcome = [
-      {"name": "A"},
-      {"name": "alpha"},
-      {"name": "B"},
-      {"name": "beta"},
-      {"name": "C"},
-      {"name": "cezar"}]
-     
+        {"Name": "alpha"},
+        {"Name": "beta"},
+        {"Name": "gamma"}
+      ]
+
+      expect(ListPage.sortABC(input)).toEqual(outcome);
+    })
+
+    it('should sort the array c->B->A', () =>{
+      const input = [
+        {"Name": "alpha"},
+        {"Name": "gamma"},
+        {"Name": "beta"}
+      ]
+      const outcome = [
+        {"Name": "gamma"},
+        {"Name": "beta"},
+        {"Name": "alpha"}
+      ]
+
+      expect(ListPage.sortCBA(input)).toEqual(outcome);
+    })
+
+    it('should add alphabetic letter-object', () => {
+      const input = [
+        {"Name": "alpha"},
+        {"Name": "beta"},
+        {"Name": "gamma"}
+      ]
+      const outcome = [
+      {"Name": "A"},
+      {"Name": "alpha"},
+      {"Name": "B"},
+      {"Name": "beta"},
+      {"Name": "G"},
+      {"Name": "gamma"}
+    ]
       expect(ListPage.addingAlphabeticLetters(input)).toEqual(outcome);
     });
   });
 
+  it('should sort and add letter', () =>{
+    const input = [
+      {"Name": "alpha"},
+      {"Name": "gamma"},
+      {"Name": "beta"}
+    ]
+    const outcome = [
+    {"Name": "A"},
+    {"Name": "alpha"},
+    {"Name": "B"},
+    {"Name": "beta"},
+    {"Name": "G"},
+    {"Name": "gamma"}
+  ]
+  expect(ListPage.addingAlphabeticLetters(ListPage.sortABC(input))).toEqual(outcome);
+
+  })
 });

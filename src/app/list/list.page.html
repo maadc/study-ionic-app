@@ -13,9 +13,11 @@
   <ion-list>
     <ion-item *ngFor="let item of items">
       <ion-label class="ion-text-wrap">
-      	<h1 class="h4"> {{item.Name}}</h1>
-      	<p class="produkte"><b>Produkte:</b> {{item.Produkte}}</p>
-      	<p class="kategorie"><b>Kategorie:</b> {{item.Kategorie}}</p>
+        <h1 class="h4"> {{item.Name}}</h1>
+      	<div *ngIf="item.Produkte as ''">
+          <p class="produkte"><b>Produkte:</b> {{item.Produkte}}</p>
+          <p class="kategorie"><b>Kategorie:</b> {{item.Kategorie}}</p>
+        </div>
       </ion-label>
       <div class="item-note" slot="end">
         {{item.Hallenname}}
