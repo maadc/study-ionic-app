@@ -6,7 +6,6 @@ import { ListPage } from './list.page';
 describe('ListPage', () => {
   let component: ListPage;
   let fixture: ComponentFixture<ListPage>;
-  let listPage: HTMLElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -24,17 +23,26 @@ describe('ListPage', () => {
   });
 });
 
+
 describe('Ausstellerverzeichnis', () => {
 
-  describe('json to array', () => {
+  describe('item json-array', () => {
 
-    it('should convert simple json to array', () => {
-      const json = [
-        {"name": "fiz"},
-        {"name": "buz"}
+    it('should add alphabetic letter-object', () => {
+      const input = [
+        {"name": "alpha"},
+        {"name": "beta"},
+        {"name": "gamma"}
       ]
-      const array = []
-   
+      const outcome = [
+      {"name": "A"},
+      {"name": "alpha"},
+      {"name": "B"},
+      {"name": "beta"},
+      {"name": "C"},
+      {"name": "cezar"}]
+     
+      expect(ListPage.addingAlphabeticLetters(input)).toEqual(outcome);
     });
   });
 
