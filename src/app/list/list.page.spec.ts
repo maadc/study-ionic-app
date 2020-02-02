@@ -22,11 +22,20 @@ describe('ListPage', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+});
 
-  it('should have a list of 10 elements', () => {
-    listPage = fixture.nativeElement;
-    const items = listPage.querySelectorAll('ion-item');
-    expect(items.length).toEqual(10);
+describe('Ausstellerverzeichnis', () => {
+
+  describe('json to array', () => {
+
+    it('should convert simple json to array', () => {
+      const json = [
+        {"name": "fiz"},
+        {"name": "buz"}
+      ]
+      const array = []
+   
+    });
   });
 
 });

@@ -16,5 +16,1661 @@
       "Produkte": "Mercedes-Benz und smart Fahrzeuge",
       "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
       "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Abfall-Wirtschafts-Verband - AWV",
+      "Produkte": "Informationsstand, Preisausschreiben",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "ADAC - Vertriebsagentur",
+      "Produkte": "Informationsstand, Automobilclub",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "AMC",
+      "Produkte": "AMC-Produkte",
+      "Kategorie": "Haushaltsgeräte, Haushaltswaren",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Amt für Ernährung, Landwirtschaft",
+      "Produkte": "Informationsstand \"Erhaltung der Artenvielfalt",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Amway Ewald und Renate Beck",
+      "Produkte": "Trinkwasserfilter, Luftfilter, Ernährungprogramm, Nahrungsergänzungen,",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "AOK Bayern - Die Gesundheitskasse",
+      "Produkte": "Informationsstand, Krankenversicherung",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Arbeiter-Samariter-Bund",
+      "Produkte": "Informationsstand, Gewinnspiel, Hausnot- rufgerät, Defibrilator, soziale Dienste",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "as Büro- und",
+      "Produkte": "div. Einrichtungsmobiliar",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "August Thomas",
+      "Produkte": "Reinigungsmittel, Tücher Standbesetzung vom 04. bis 06. Oktober",
+      "Kategorie": "Bekleidung, Pelze, Leder",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "AVS - Taglieber GmbH",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "AWV - Abfallwirtschaftsverband",
+      "Produkte": "Informationsstand, Preisausschreiben",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "balanceSoul  Mayr",
+      "Produkte": "Bemer Physikalische Gefäßtherapie, Standbesetzung am 02. + 03.10.2019",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Barockpferdecentrum \"Reitstall Petra",
+      "Produkte": "Informationsstand, Popkorn Verkauf, Glücksrad",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "TSV 1861 Nördlingen e.V.",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Bau-Innung Nordschwaben",
+      "Produkte": "Informationsstand, Innungs- und Lehrlingswerbung",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Bauelemente Hamm",
+      "Produkte": "Spezialreiniger, Schaum macht's möglich",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Bauer Bauelemente GmbH & Co. KG",
+      "Produkte": "Fassaden-Dachsysteme, WPC-Terrassendielen",
+      "Kategorie": "Dächer, Dachumdeckungen, Dacheindeckungen, Fassaden",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Baur - Malerbetrieb",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Raumausstattung",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Bayer. Bauernverband",
+      "Produkte": "Schweinemobil Tierzelt",
+      "Kategorie": "Tierschauen, Tierbedarf",
+      "Hallenname": "Halle T, Freigelände"
+    },
+    {
+      "Name": "Bayerische Sportjugend BSJ",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "BDKJ Diözesanverband Augsburg",
+      "Produkte": "Riesen-Yenga - Das Gesellschaftsspiel",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Beck Erwald Amway",
+      "Produkte": "Trinkwasserfilter,Luftfilter,Ernährungs- programm, Nahrungsergänzungen,",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Bezirkskrankenhaus Donauwörth",
+      "Produkte": "in Ergotherapie gefertigte Gegenstände, Gedächtnisübungen, Alkoholmessung",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Bissinger Auerquelle",
+      "Produkte": "alkoholfreie Getränke",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Bissinger Gartengestaltung",
+      "Produkte": "Gartengestaltung",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Bittner Frank e. K.",
+      "Produkte": "Kachelöfen, Heizkamine, Kamin- Pellet- ofen, Küchenherd, Heizeinsätze,",
+      "Kategorie": "Kamine, Kachelöfen",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Bittner Friedrich",
+      "Produkte": "Kaminöfen, Kachelofen",
+      "Kategorie": "Kamine, Kachelöfen",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Böhm Entsorgungs GmbH",
+      "Produkte": "Containerbar, Kinderspiele, versch. Recyclingmateralien",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Bohner Hans GmbH & Co. KG",
+      "Produkte": "Anhänger, Arbeitsschutz, Speicher, Wärmepumpen, Bauelemente",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle K, Freigelände"
+    },
+    {
+      "Name": "Boko Marc - Vertrieb",
+      "Produkte": "PUR Classic Antibeschlag & Antistatik",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Boos Birgit u. Erwin GBR",
+      "Produkte": "Jemako Ware Standbesetzung vom 02. bis 03.10. 2019",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Brennerei Donare",
+      "Produkte": "Schnäpse",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Bretzger Schreinerei",
+      "Produkte": "Türen",
+      "Kategorie": "Fenster und Türen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "BRSG",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "BS - Kamine & Bau",
+      "Produkte": "Öfen, Kamine",
+      "Kategorie": "Kamine, Kachelöfen",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Büchler Albert",
+      "Produkte": "Holztreppen",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Bundeswehr",
+      "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F, Freigelände"
+    },
+    {
+      "Name": "Bundeswehr - Karriereberatung",
+      "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F, Freigelände"
+    },
+    {
+      "Name": "Bündnis 90/ Die grünen Donau-Ries",
+      "Produkte": "Informationsstand, Glücksrad",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Casada Deutschland GmbH",
+      "Produkte": "PowerBoard, Vibrationshanteln, PowerBand, ReflexPad, PowerPodest",
+      "Kategorie": "Fitness, Gesundheit",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "CBDproHanf UG (haftungsbeschränkt)",
+      "Produkte": "CBD Öl, Hanfzahncreme, CBD Kapseln, CBD Tee, CBD Kaugummi ...",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Club der Köche Donau-Ries e. V.",
+      "Produkte": "Schaukochen mit Küchenmeister Uli Großmann Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "CSU-Kreisverband Donau-Ries e. V.",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Czeschner Schreinerei GmbH & Co. KG",
+      "Produkte": "Informationsstand, Möbel",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "DEESSE Kosmetikberatung",
+      "Produkte": "Kosmetikprodukte",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Deutsche Seniorenwerbung GmbH",
+      "Produkte": "Informationsstand, Glückstüte®",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Deutsche Strategie Beratung GmbH",
+      "Produkte": "Informationen zum Immobilienverkauf",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Deutscher Alpenverein e. V.",
+      "Produkte": "Flechten von Survival-Armbändern aus Paracord 2.10. Nachmittag + 3.10. ganzt., 5. + 6.10. ganzt.",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Diakoneo Offene Hilfen",
+      "Produkte": "Memory und Tischtennistorwand 04.10.",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "DOMUS-SANA",
+      "Produkte": "Dampfsauger f. Haushalt u. Gewerbe m. u. o. Chemie, Staubsauger m. Wasserfilter",
+      "Kategorie": "Maschinen und Werkzeuge",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Donau-Ries Kliniken",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Donau-Ries-Medien GmbH",
+      "Produkte": "Informationsstand, Blättle (Donau-Ries- Aktuell)",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Dorf- und Bürgerverein Kleinsorheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Dorfgemeinschaft Balgheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Dorfladen Alerheim",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Amerdingen",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Daiting",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Fünfstetten",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Huisheim",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Megesheim",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Oberndorf",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen UG",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Dorfladen Wolferstadt",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Drescher Fliesen",
+      "Produkte": "Fliesen, Bodenbeläge, Verlegematerial, Reiniger, Bauchemie",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "DS Smith Packaging Deutschland",
+      "Produkte": "Verpackungsmuster, Infostand über Ausbildung",
+      "Kategorie": "Recruiting, Arbeitskräfte, Personal",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "E-Service Ueckert",
+      "Produkte": "Alarmanlagen, Sicherheitstechnik, Telefonanlagen",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "eb Naturstein GmbH",
+      "Produkte": "Natursteininterior, Kunst, Grabmal",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Eberhardt - Die Creative",
+      "Produkte": "Küche und Eßzimmer",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Eberhardt Elektro",
+      "Produkte": "Wechselrichter, Solarmodule, Elektro- installationsgegenstände",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Egerschützen Enkingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "EIGNER Fertigbau GmbH & Co. KG",
+      "Produkte": "Betonfertigteilgarage",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "EKIM Ewiv",
+      "Produkte": "Rescue Gel, Gewinnspiel mit Sofortgewinn",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Elektro Eberhardt",
+      "Produkte": "Wechselrichter, Solarmodule, Elektro- Installationsgegenstände",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Elektro-Innung Donau-Ries",
+      "Produkte": "Informationsstand, Innungs- und Azubiwerbung",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Element Haar by Isabella",
+      "Produkte": "Informationsstand, Haarpflege, Perücken, Haarverlängerung",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "EnBW ODR AG Ostwürttemberg",
+      "Produkte": "Strom, Gas, Telekommunikation, Energie- Beratung, Dienstleistung, E-Mobilität",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Enßlin GmbH",
+      "Produkte": "Holzhausbau, Energetische Sanierung, Hallenbau",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Erdgas Schwaben GmbH",
+      "Produkte": "Brennstoffzelle, E-Auto, CNG-Auto",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "F.B. Zell Aktiv GmbH",
+      "Produkte": "Baubiologische Beratungen,Strahlenschutz der gesunde Platz für Mensch und Tier,",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Fawas GmbH",
+      "Produkte": "Zentralstaubsauger, Wohnraumlüftung, Wäscheabwurfschächte",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Feistle Wassertechnologie",
+      "Produkte": "balaAqua evolution classic Tritan Trinkflaschen",
+      "Kategorie": "Wasserenthärtung und -aufbereitung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Fenster - dicht!",
+      "Produkte": "Holzfenstersanierung, Einbruchschutz",
+      "Kategorie": "Fenster und Türen",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Fensterhaus Ansbach GmbH",
+      "Produkte": "Fenster, Türen, Vordächer, Dachflächen- fenster",
+      "Kategorie": "Fenster und Türen",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Ferienland Donau-Ries",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Flexmo by Kögl",
+      "Produkte": "Sprinter mit Fahrzeugeinrichtung",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Freiwillige Feuerwehr Enkingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Freiwillige Feuerwehr Kleinsorheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Freiwillige Feuerwehr Möttingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Fürstl. Bissinger Auerquelle",
+      "Produkte": "alkoholfreie Getränke",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Fußballabteilung",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Garten- und Verschönerungsverein Balgheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Gartenbau- und",
+      "Produkte": "Kartoffel oder Kräuter",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartenbau- und Verschönerungsverein Munningen",
+      "Produkte": "Obstsäfte",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartenbau- und Verschönerungsverein Löpsingen",
+      "Produkte": "Drechsler ( Herr Erich Schabert )",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartenbauverein Hürnheim",
+      "Produkte": "Rund um die Honigbiene",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartenbauverein Marktoffingen/Minderoffingen",
+      "Produkte": "Naturnaher Garten mit Federvieh",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartenbauverein Mönchsdeggingen",
+      "Produkte": "Die Zwiebel - eine uralte Nutz- und Heilpflanze",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Gartengestaltung Bissinger",
+      "Produkte": "Gartengestaltung",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Gasthaus \"Zur Wallfahrt",
+      "Produkte": "Verkauf von Kaffee und Kuchen",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Gebietsverkehrswachten Nördlingen & Donauwörth",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Geiger Monika",
+      "Produkte": "Aloe Vera: Pflegeprodukte, Nahrungser- gänzung, Körperreinigungskuren, Tee",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Gemeinde Möttingen",
+      "Produkte": "Kaffee, Kuchen",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Gemeinde Reimlingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Geopark Ries kulinarisch",
+      "Produkte": "Schaukochen mit Küchenmeister Uli Großmann Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Gouville-Sur-Mer",
+      "Produkte": "Austern, Weißbrotscheiben mit Camembert",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "GP JOULE GmbH",
+      "Produkte": "Erneuerbare Energie Projekte, Wasser- stoffmodell, Elektromobilität",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Gutmann Erdbau GmbH & Co.KG",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Habicht Matthias",
+      "Produkte": "Imker",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Hamm Bauelemente",
+      "Produkte": "Spezialreiniger, Schaum macht's möglich",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Hartmann Thomas",
+      "Produkte": "Fleisch",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "HÄRTSFELDER",
+      "Produkte": "Härtsfelder Biere u. Biermisch-Getränke, Haldina Säfte, Erfrischungs-Getränke",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Heim & Haus Vertriebsgesellsch. für",
+      "Produkte": "Markisen, Haustüren, Rollläden, Fenster, Vordächer",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle H, Freigelände"
+    },
+    {
+      "Name": "Heiss Jochen",
+      "Produkte": "Massivholzbett, Möbel",
+      "Kategorie": "Betten, Bettwäsche, Felle",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Herrmann GmbH",
+      "Produkte": "Küchen aus eigener Fertigung",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Hieble R.",
+      "Produkte": "Bagger, Radlader, Rüttelplatten, Stampfer, Baukompressoren",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "HK-Marketing",
+      "Produkte": "Sprühversiegelung",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Hofmann GmbH",
+      "Produkte": "Speichersysteme, Photovoltaik-Module, Infrarotheizungen, Wärmepumpe",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Holunderhof Lohe",
+      "Produkte": "versch. regionale Produkte",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Holz - Treppenbau",
+      "Produkte": "Holztreppen",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Hönle Markus",
+      "Produkte": "Holzbauteile",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Hübler GmbH",
+      "Produkte": "Wintergarten, Fenster, Sonnenschutz",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "International Protactics Federation e.V.",
+      "Produkte": "",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "INVITALIS GmbH",
+      "Produkte": "INVITALIS-Produkte",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Jemako",
+      "Produkte": "Reinigungsmittel, Tücher Standbesetzung vom 04. bis 06. Oktober",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Ju-Jutsu Abteilung",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Juchheim Cosmetics",
+      "Produkte": "Effectkosmetik, Antiaging, Antifalten, Anticellulite",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Jugendrotkreuz Nordschwaben",
+      "Produkte": "1. Hilfe-Kurs für Kinder 03.10.",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Kaminkehrer-Innung Schwaben-Augsburg",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "KAMPA GmbH",
+      "Produkte": "Fertighäuser",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Katholische Jugendfürsorge",
+      "Produkte": "Upcycling-Basteln Geldbeutel aus Milch- und Saftkartons - 02.10. 14-18 Uhr",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Katholische Jugendstelle Donauwörth",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Kettler Adolf",
+      "Produkte": "Naturprodukte, Tee, Sonnenmoor, Honig",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Kettlitz-Chemie GmbH & Co. KG",
+      "Produkte": "Schmierstoffe, Gerätereiniger, Sonderkraftstoff",
+      "Kategorie": "Landwirtschaft, Landwirtschaftsgeräte",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Kipf & Sohn GmbH",
+      "Produkte": "Fenster, Haustüren, Terrassendach-Muster",
+      "Kategorie": "Fenster und Türen",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Kirchenvorstand Enkingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Klaiber GmbH",
+      "Produkte": "Dachsandwichpaneele, Trapezbleche, Wellbleche, Lichtplatten",
+      "Kategorie": "Dächer, Dachumdeckungen, Dacheindeckungen, Fassaden",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Klopfer GmbH",
+      "Produkte": "Fenster und Haustüren",
+      "Kategorie": "Fenster und Türen",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Kögl GmbH - Betriebs-, Lager- u.",
+      "Produkte": "Sprinter mit Fahrzeugeinrichtung",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Kommunale Jugendarbeit",
+      "Produkte": "Spiele in XXL",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Kowol Eva",
+      "Produkte": "Effectkosmetik, Antiaging, Antifalten, Anticellulite",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Kreisjugendring Donau-Ries",
+      "Produkte": "Buttons gestalten u. Spiele rund um die Balance 05. + 06.10",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Kreisverband für Gartenbau",
+      "Produkte": "Verkostung sortenreiner Apfelsäfte Vorstellung Leader-Projekt Alte Streuobstsorten",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Kreiswasserwacht Nordschwaben",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Kress Kaffee",
+      "Produkte": "Kaffee, Spezialitäten",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Krieger-, Soldaten- und",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Küche & Wohnkultur",
+      "Produkte": "Küche, Eßgruppen",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Kyudo GmbH",
+      "Produkte": "Körperpflege-Artikel, Wellnes-Artikel, Gesichtshaar-Entferner",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Landfrauen Donauwörth",
+      "Produkte": "Arbeit der Landfrauen, Blühflächenpatenschaft",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle T"
+    },
+    {
+      "Name": "Landkreis Donau-Ries",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Landratsamt Donau-Ries",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J, Halle D"
+    },
+    {
+      "Name": "Lang Schreinerei GmbH & Co.KG",
+      "Produkte": "Treppe, Türen, Fenster, Decke, Haustüren",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Lebenswert GmbH",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Lechner Massivhaus GmbH",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Lechner Trachtelstadl",
+      "Produkte": "Trachten für Damen und Herren, Dirndl, Lederhosen, Blusen, Schuhe, Strümpfe,",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Lechwerke AG",
+      "Produkte": "PV + Speicher Lösungen, SolarCloud, E-Mobility-Ladelösungen, Gewinnspiel",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Leeb - Balkone & Zäune",
+      "Produkte": "Balkone, Zäune, Trennwände, Über- dachungen, Sommergärten, Anbaubalkone",
+      "Kategorie": "Wintergärten, Überdachungen, Markisen",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Lessmann Herwig",
+      "Produkte": "Möbel, Gartenmöbel",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Linsenmeyer Joachim",
+      "Produkte": "Bett, Bettwaren, Möbel",
+      "Kategorie": "Betten, Bettwäsche, Felle",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Luna Trading GmbH",
+      "Produkte": "Schmuck",
+      "Kategorie": "Schmuck",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Maierbier",
+      "Produkte": "regionales Bier",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Mair Jürgen",
+      "Produkte": "Wintergarten, Sommergarten, Terrassen- überdachungen, Markisen",
+      "Kategorie": "Wintergärten, Überdachungen, Markisen",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Mairie de Bourgueil",
+      "Produkte": "Wein und Häppchen",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Markt Wallerstein",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Mayer Hubarbeitsbühnen GmbH",
+      "Produkte": "LKW-Arbeitsbühne, Raupenscheren- arbeitsbühne",
+      "Kategorie": "Maschinen und Werkzeuge",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Mediagon AG",
+      "Produkte": "Kalk- und Rostschutzgerät",
+      "Kategorie": "Wasserenthärtung und -aufbereitung",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "meinBodenbelag.de GmbH",
+      "Produkte": "Parkett, Vinyl, Laminat, Kork, Holz- u. WPC-Terrassen",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Meyr GmbH",
+      "Produkte": "Fenster, Türen, Holzbau, Elektroküchen- geräte, Böden, Zimmerei",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Montessori Schule Deiningen",
+      "Produkte": "Basteln für Kinder, Schulpräsentation",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Moosverdacht GmbH",
+      "Produkte": "Biologische Moos-, Algen-, Flechten- Entfernung von Terrassen, Hofeinfahrten",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Mrs.Sporty Nördlingen",
+      "Produkte": "Informationsstand Standbesetzung am 05. + 06.10.2019",
+      "Kategorie": "Fitness, Gesundheit",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "mt marketing GmbH",
+      "Produkte": "Informationsstand, Schäferwagen",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Münzinger Harald",
+      "Produkte": "Restaurant Ochs am Spieß am 03. und 06.10.2019",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle L, Freigelände"
+    },
+    {
+      "Name": "Mutsch Naturseifen",
+      "Produkte": "Naturseifen",
+      "Kategorie": "Kunst- u. Geschenkartikel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Nature Power Pelletes",
+      "Produkte": "Wolle, Woll-Pellets",
+      "Kategorie": "Heizung, Heizungstechnik, Sanitär",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Obst- und Gartenbauverein Appetshofen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Ohne Umweg",
+      "Produkte": "unverpackt: Seifen & Naturkosmetik, reg. Erzeugnisse: Honig, Wurst, Brot, Kaffee,",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "ORBIMED",
+      "Produkte": "BIO-Zahnpflegeprodukte und Naturseifen",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Ott R. GmbH",
+      "Produkte": "Heizkessel",
+      "Kategorie": "Heizung, Heizungstechnik, Sanitär",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Pallhuber GmbH & Co. KG",
+      "Produkte": "Weine, Sekte, Säfte, Sherry",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "paramobil GmbH",
+      "Produkte": "PLA Wohnmobil",
+      "Kategorie": "Mobilität, Zweirad, Reisen",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "perfecta - Fenster u. Türen",
+      "Produkte": "Fenster, Türen, Rollladensysteme",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Pfaff Heinrich",
+      "Produkte": "Imker",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Pfefferer Jörg-Josef e.K.",
+      "Produkte": "Seecontainer, Lagercontainer, Containerzubehör",
+      "Kategorie": "Verschiedenes",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Pfister Friedrich",
+      "Produkte": "PKW-Kastenanhänger, -Viehanhänger, kleiner Hoflader",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Pierre René Professional",
+      "Produkte": "Kosmetik-Produkte",
+      "Kategorie": "Mode, Beauty, Kosmetik",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Polizeiinspektion Dillingen a.d. Donau",
+      "Produkte": "Informationsstand, Ausbildung zur 2. + 3. Qualifikationsebene",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Portas Fachbetrieb",
+      "Produkte": "Treppe, Türen, Fenster, Decke, Haustüren",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Posaunenchor Enkingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Posaunenchor Kleinsorheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Premium Personal GmbH",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Progas GmbH & Co. KG",
+      "Produkte": "Flüssiggas, Geräte und Zubehör",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Rappenegger Monika",
+      "Produkte": "Tupperware",
+      "Kategorie": "Haushaltsgeräte, Haushaltswaren",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Regionalmanagement Donau-Ries",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Reidelshöfer - Das Bettenhaus",
+      "Produkte": "Wasserbetten, Matratzen, Tempur Teller- roste, Zirbenholzbetten, Bettgestelle,",
+      "Kategorie": "Betten, Bettwäsche, Felle",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "RENOfloor® GmbH",
+      "Produkte": "Schnellsanierung für Balkone, Terrassen und Treppen bzw. Wohnbereiche",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Ries Aronia",
+      "Produkte": "Aroniasaft",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle A"
+    },
+    {
+      "Name": "Rieser Agrartechnik GmbH",
+      "Produkte": "Rasenmäher, Forstgeräte, Reinigungs- technik, Rasenroboter",
+      "Kategorie": "Landwirtschaft, Landwirtschaftsgeräte",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Rieser Eierteigwaren-Fabrik",
+      "Produkte": "Nudeln, Tomatensoße",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Rieser Nachrichten",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "RMG Trockenlegung GmbH",
+      "Produkte": "Abdichtungsprodukte, Kellertrockenlegung Horizontalsperre, Schleierinjektion",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Rotel GmbH",
+      "Produkte": "Dampfdruckbügeleisen und Zubehör",
+      "Kategorie": "Haushaltsgeräte, Haushaltswaren",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "RST - Beschichtungs GmbH",
+      "Produkte": "Balkon-, Terrassen- u. Treppenbeschich- tungen, Garagenbodenbeschichtung",
+      "Kategorie": "Balkone, Geländer, Zäune",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Rugby Abteilung",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "S.C. Boxenstopp",
+      "Produkte": "Auto, Felgen",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Samocca",
+      "Produkte": "Kaffee und Kuchen",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Samtpfoten Katzenhilfe Ries e.V.",
+      "Produkte": "Bücher, CD's, DVD's, Plüschtiere, etc. gegen Spende zum Mitnehmen",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Sankt Ulrich Verlag GmbH",
+      "Produkte": "Katholische SonntagsZeitung für das Bistum Augsburg",
+      "Kategorie": "informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Schnell Günter - Schreinerei/",
+      "Produkte": "Informationsstand, Outdoorküche aus Holz",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Schreiner-Innung Donau-Ries",
+      "Produkte": "Möbel",
+      "Kategorie": "Möbel, Küchen",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Schreinerei König GbR",
+      "Produkte": "Fenster, Haus- u. Zimmertüren, Insekten- schutz, Überdachungen, Roll. Isolierung,",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Schützenverein St. Georg Möttingen e.V.",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Schweihofer Winfried",
+      "Produkte": "Akku-Geräte der Firma STIHL, Rasen- roboter Fa. STIHL",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Selbsthilfegruppe bezüglich",
+      "Produkte": "Informationshefte und Spruchkarten",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Skiba Fensterabdichtungen",
+      "Produkte": "Fenster- u. Türenabdichtungen, Service",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Soldaten- und Kameradenverein",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Sparkasse Donauwörth",
+      "Produkte": "Informationsstand, Präsentation Finanzdienstleistungen",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Stadt Harburg",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Stadt Heidenheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Stadt Nördlingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Stadt Oettingen i. Bay.",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Stadt Olomouc",
+      "Produkte": "lokales Bier Olmützer Quargel",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Stadt Stollberg",
+      "Produkte": "Stollen, regionales Bier",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Stadtmuseum Nördlingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Stahl Manfred",
+      "Produkte": "Würzen, Suppen, Soßen, Salate,",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Ste-Cra Aluminium u. Edelstahlverarbeitung",
+      "Produkte": "Zäune, Tore, Geländer",
+      "Kategorie": "Garagen, Torantriebe",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Stengel Ziegelwerk GmbH & Co. KG",
+      "Produkte": "Ziegel",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Stockschützen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Streunerhilfe Rudelstetten e.V.",
+      "Produkte": "Selbstgemachte Hundeartikel, Schnüffel- teppiche, Leinen, Halsbänder, Halstücher",
+      "Kategorie": "Tierschauen, Tierbedarf",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Strobel Markus",
+      "Produkte": "Zaubermalstifte, Pustestifte, Badeenten, Kinderschmuck",
+      "Kategorie": "Kunst- u. Geschenkartikel",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Swoboda Manuel",
+      "Produkte": "Steinreinigung, Steinverfugung, Imprägnierung",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Tabula Tilly",
+      "Produkte": "Rahmbrot",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Taglieber Holzbau GmbH",
+      "Produkte": "Wand- u. Dachmodelle, Info zu Holzhaus- bau, Zimmerei-Sanierung, Gewerbebau",
+      "Kategorie": "Wintergärten, Überdachungen, Markisen",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "team 4 two Hundetraining",
+      "Produkte": "Rahmenprogramm Hundetraining / Tier- psychologie, Mitmachparcour, Vorträge",
+      "Kategorie": "Tierschauen, Tierbedarf",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Tekno Gerätefabrik GmbH",
+      "Produkte": "Dampfreiniger, Dampfsauger, Bügel- systeme, Staubsauger",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Tennisclub \"Romantische Straße",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Tennisgemeinschaft Schützenverein",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Thermofit AG",
+      "Produkte": "Thermofit pro, Thermofit plus",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Tischtennisabteilung",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "TSV 1861 Nördlingen e. V.",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "TSV Möttingen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Tupperware Bezirkshandlung",
+      "Produkte": "Tupperware",
+      "Kategorie": "Haushaltsgeräte, Haushaltswaren",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Turnen",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Uhl Weinvertrieb",
+      "Produkte": "Wein, Sekt, Spirituosen, Säfte",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Ulrich R + F GmbH",
+      "Produkte": "Pferdebox, Weidezauntechnik, Pferdebedarf",
+      "Kategorie": "Tierschauen, Tierbedarf",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "UNGER",
+      "Produkte": "Estrich, Bodenbeläge, Sanierung, Trocknung, Raumausstattung",
+      "Kategorie": "Altbau, Modernisierung",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Unser Dorfladen Tagmersheim",
+      "Produkte": "regionale Produkte",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "VARTA Storage GmbH",
+      "Produkte": "Info Energiespeicherlösungen",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "VdK Sozialverband",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Verein für Gartenbau u. Landespflege",
+      "Produkte": "Ruheinsel",
+      "Kategorie": "Gartengeräte, Gartengestaltung, Gartenbedarf",
+      "Hallenname": "Halle C"
+    },
+    {
+      "Name": "Verschönerungsverein Kleinsorheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Veteranen-, Soldaten- und",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Ville de Couches",
+      "Produkte": "französische Spezialitäten Wurst/Käse, Wein/Sekt",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Ville de Riom",
+      "Produkte": "Champagner",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Vogt Albert GmbH - Bauunternehmung",
+      "Produkte": "Schlüsselfertiges Bauen",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Volksbanken Raiffeisenbanken im",
+      "Produkte": "Informationsstand, Fotobox",
+      "Kategorie": "Finanzen, Versicherungen",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Volleyballabteilung",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "von Gaisbergsche Schloßkellerei GmbH",
+      "Produkte": "Weine, Sekte, Spirituosen",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Vorwerk Deutschland",
+      "Produkte": "Vorwerk Staubsauger und Zubehör, Raumpflegeprodukte",
+      "Kategorie": "Reinigungsgeräte und -mittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "WALTER Konzept",
+      "Produkte": "Photovoltaik, Solarstromspeicher",
+      "Kategorie": "Energietechnik, Energieversorgung",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "Wassertechnologie Feistle",
+      "Produkte": "balaAqua evolution classic Tritan Trinkflaschen",
+      "Kategorie": "Wasserenthärtung und -aufbereitung",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Wasserwacht Bäumenheim",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle J"
+    },
+    {
+      "Name": "Webertherm",
+      "Produkte": "Infrarotheizungen",
+      "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+      "Hallenname": "Halle F"
+    },
+    {
+      "Name": "Werksvertretungen",
+      "Produkte": "PKW-Kastenanhänger, -Viehanhänger, kleiner Hoflader",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Wernitz Rainer",
+      "Produkte": "Fahrzeuge der Marke Jeep",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Whirlpool & Living GmbH",
+      "Produkte": "Softub Whirlpools",
+      "Kategorie": "Sauna, Wärmekabinen, Whirlpool",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Wirtschaftsförderverband",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Wohlbefinden für Mensch und Tier",
+      "Produkte": "Informationsstand Tierernährung, Dienst- leistungen, Hundephysio,",
+      "Kategorie": "Tierschauen, Tierbedarf",
+      "Hallenname": "Freigelände"
+    },
+    {
+      "Name": "Wolf Schreinerei",
+      "Produkte": "Bett, Bettsysteme, Matratzen, Möbel",
+      "Kategorie": "Betten, Bettwäsche, Felle",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "WOLFF ProTect",
+      "Produkte": "Gutes fürs Dach",
+      "Kategorie": "Dächer, Dachumdeckungen, Dacheindeckungen, Fassaden",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "Xanderhof",
+      "Produkte": "Käse, Wurstwaren, Fertiggerichte Bewirtung mit regionalen Spezialitäten",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle M"
+    },
+    {
+      "Name": "Zalera UG (haftungsbeschränkt)",
+      "Produkte": "IQ-Vitality: Probiotic, Joghurt-Maker Energy, Minerals, Booster",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle G"
+    },
+    {
+      "Name": "Zentrum für Betreuung u. Pflege",
+      "Produkte": "Informationsstand",
+      "Kategorie": "Gesundheit, Medizin, Pflege",
+      "Hallenname": "Halle K"
+    },
+    {
+      "Name": "Zimmerer-Innung Donau-Ries",
+      "Produkte": "Informationsstand, Innungs- und Azubiwerbung",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle B"
+    },
+    {
+      "Name": "ZOTT SE & Co. KG",
+      "Produkte": "Joghurt-, Dessert-, Käsespezialitäten",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle E"
+    },
+    {
+      "Name": "Zur Wallfahrt",
+      "Produkte": "Verkauf von Kaffee und Kuchen",
+      "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+      "Hallenname": "Halle S"
+    },
+    {
+      "Name": "Zwick Wintergarten GmbH",
+      "Produkte": "Wintergarten",
+      "Kategorie": "Wintergärten, Überdachungen, Markisen",
+      "Hallenname": "Halle F"
     }
   ]

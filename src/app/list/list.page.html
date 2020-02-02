@@ -12,10 +12,13 @@
 <ion-content>
   <ion-list>
     <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
+      <ion-label class="ion-text-wrap">
+      	<h1 class="h4"> {{item.Name}}</h1>
+      	<p class="produkte"><b>Produkte:</b> {{item.Produkte}}</p>
+      	<p class="kategorie"><b>Kategorie:</b> {{item.Kategorie}}</p>
+      </ion-label>
       <div class="item-note" slot="end">
-        {{item.note}}
+        {{item.Hallenname}}
       </div>
     </ion-item>
   </ion-list>
