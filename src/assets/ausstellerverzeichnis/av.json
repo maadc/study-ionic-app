@@ -1,0 +1,20 @@
+[
+    {
+      "Name": "A-Team mit Herz",
+      "Produkte": "Informationsstand über Haushaltsservice und Hausmeisterservice",
+      "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+      "Hallenname": "Halle H"
+    },
+    {
+      "Name": "ABC Getränke",
+      "Produkte": "Getränke",
+      "Kategorie": "Nahrungs- und Genussmittel",
+      "Hallenname": "Halle D"
+    },
+    {
+      "Name": "Abel + Ruf GmbH",
+      "Produkte": "Mercedes-Benz und smart Fahrzeuge",
+      "Kategorie": "Auto, Autozubehör, Autopflege, Autohaus",
+      "Hallenname": "Freigelände"
+    }
+  ]
