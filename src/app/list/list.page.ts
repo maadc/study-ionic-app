@@ -143,10 +143,11 @@ export class ListPage {
 
       if (!(usedHallen.includes(firstHalle))) {
         usedHallen.push(firstHalle)
-        newArray.push({ "Name": firstHalle })
+        newArray.push([firstHalle, []])
       }
-      newArray.push(array[i])
+      newArray[usedHallen.length-1][1].push(array[i])
     }
+    console.log(newArray)
     return newArray;
   }
 }
