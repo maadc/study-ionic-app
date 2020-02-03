@@ -10,7 +10,27 @@ import { ActionSheetController, IonContent } from '@ionic/angular';
 
 export class ListPage {
   @ViewChild(IonContent, {static: false}) content: IonContent;
-  items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
+  //items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
+
+  items = [
+    [
+      ["A", 
+        [
+          {"Name": "alpa","Produkte": "a", "Kategorie": "b", "Halle": "Halle A"}, {"Name": "alpha","Produkte": "c", "Kategorie": "y", "Halle": "Halle A"}
+        ]
+      ] 
+    ],
+    [
+      ["B",
+        [
+          {"Name": "beta","Produkte": "d", "Kategorie": "y", "Halle": "Halle A"}, {"Name": "betha","Produkte": "r", "Kategorie": "y", "Halle": "Halle A"}
+        ]
+      ],
+    ]
+  ];
+  
+
+
   
   constructor(private ActionSheetController: ActionSheetController) {}
 
@@ -68,8 +88,6 @@ export class ListPage {
       if (nameA > nameB) {
         return 1;
       }
-
-      // names must be equal
       return 0;
     })
   }
@@ -84,8 +102,6 @@ export class ListPage {
       if (nameA > nameB) {
         return -1;
       }
-
-      // names must be equal
       return 0;
     })
   }
@@ -100,8 +116,6 @@ export class ListPage {
       if (halleA > halleB) {
         return 1;
       }
-
-      // names must be equal
       return 0;
     })
   }
@@ -116,8 +130,6 @@ export class ListPage {
       if (halleA > halleB) {
         return -1;
       }
-
-      // names must be equal
       return 0;
     })
   }

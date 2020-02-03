@@ -9,23 +9,29 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [scrollEvents]="true"
->
-  
+<ion-content [scrollEvents]="true">
+
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-label class="ion-text-wrap">
-          <h1 class="h4"> {{item.Name}}</h1>
-      	<div *ngIf="item.Produkte as ''">
-          <p class="produkte"><b>Produkte:</b> {{item.Produkte}}</p>
-          <p class="kategorie"><b>Kategorie:</b> {{item.Kategorie}}</p>
+    <ion-item-group *ngFor="let item of items">
+      <ion-item-divider>
+        <ion-label>{{item[0][0]}}</ion-label>
+      </ion-item-divider>
+
+      <ion-item *ngFor="let i of item[0][1]">
+        <ion-label class="ion-text-wrap">
+          <h1 class="h4"> {{i.Name}}</h1>
+          <div *ngIf="item.Produkte != ''">
+            <p class="produkte"><b>Produkte:</b> {{i.Produkte}}</p>
+            <p class="kategorie"><b>Kategorie:</b> {{i.Kategorie}}</p>
+          </div>
+        </ion-label>
+        <div class="item-note" slot="end">
+          {{i.Halle}}
         </div>
-      </ion-label>
-      <div class="item-note" slot="end">
-        {{item.Halle}}
-      </div>
-    </ion-item>
+      </ion-item>
+    </ion-item-group>
   </ion-list>
+
 </ion-content>
 
 <ion-footer>
