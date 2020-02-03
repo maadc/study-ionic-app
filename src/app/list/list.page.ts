@@ -10,27 +10,7 @@ import { ActionSheetController, IonContent } from '@ionic/angular';
 
 export class ListPage {
   @ViewChild(IonContent, {static: false}) content: IonContent;
-  //items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
-
-  items = [
-    [
-      ["A", 
-        [
-          {"Name": "alpa","Produkte": "a", "Kategorie": "b", "Halle": "Halle A"}, {"Name": "alpha","Produkte": "c", "Kategorie": "y", "Halle": "Halle A"}
-        ]
-      ] 
-    ],
-    [
-      ["B",
-        [
-          {"Name": "beta","Produkte": "d", "Kategorie": "y", "Halle": "Halle A"}, {"Name": "betha","Produkte": "r", "Kategorie": "y", "Halle": "Halle A"}
-        ]
-      ],
-    ]
-  ];
-  
-
-
+  items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
   
   constructor(private ActionSheetController: ActionSheetController) {}
 
@@ -135,25 +115,29 @@ export class ListPage {
   }
 
   static addingAlphabeticLetters(array) {
-    let usedLetters = []
+    let newArray = [];
+    let usedLetters = [];
     const startLength = array.length;
-    let newArray = []
+    
     for (let i = 0; i < startLength; i++) {
       const firstLetter = array[i].Name.charAt(0).toUpperCase();
 
       if (!(usedLetters.includes(firstLetter))) {
         usedLetters.push(firstLetter)
-        newArray.push({ "Name": firstLetter })
+        //push a new array => ["Letter", [space]]
+        newArray.push([firstLetter, []])
       }
-      newArray.push(array[i])
+      //[space] gets filled
+      newArray[usedLetters.length-1][1].push(array[i])
     }
     return newArray;
   }
 
   static addingHalleLetters(array) {
-    let usedHallen = []
+    let newArray = [];
+    let usedHallen = [];
     const startLength = array.length;
-    let newArray = []
+    
     for (let i = 0; i < startLength; i++) {
       const firstHalle = array[i].Halle.toUpperCase();
 
