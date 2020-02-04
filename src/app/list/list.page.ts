@@ -2,6 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import json from '../../assets/ausstellerverzeichnis/av.json';
 import { ActionSheetController, IonContent } from '@ionic/angular';
 
+import {Sort} from "./sort";
+
 @Component({
   selector: 'app-list',
   templateUrl: 'list.page.html',
@@ -9,10 +11,10 @@ import { ActionSheetController, IonContent } from '@ionic/angular';
 })
 
 export class ListPage {
-  @ViewChild(IonContent, {static: false}) content: IonContent;
-  items: any = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
-  
-  constructor(private ActionSheetController: ActionSheetController) {}
+  @ViewChild(IonContent, { static: false }) content: IonContent;
+  items: any = ListPage.addingAlphabeticLetters(Sort.sortABC(json));
+
+  constructor(private ActionSheetController: ActionSheetController) { }
 
   openActionSheet() {
     this.ActionSheetController.create({
@@ -22,28 +24,28 @@ export class ListPage {
           text: "Alphabetisch",
           icon: 'arrow-round-up',
           handler: () => {
-            this.items = ListPage.addingAlphabeticLetters(ListPage.sortABC(json));
+            this.items = ListPage.addingAlphabeticLetters(Sort.sortABC(json));
           }
         },
         {
           text: "Alphabetisch",
           icon: 'arrow-round-down',
           handler: () => {
-            this.items = ListPage.addingAlphabeticLetters(ListPage.sortCBA(json));
+            this.items = ListPage.addingAlphabeticLetters(Sort.sortCBA(json));
           }
         },
         {
           text: "Hallen",
           icon: 'arrow-round-up',
           handler: () => {
-            this.items = ListPage.addingHalleLetters(ListPage.sortHALLE(json));
+            this.items = ListPage.addingHalleLetters(Sort.sortHALLE(json));
           }
         },
         {
           text: "Hallen",
           icon: 'arrow-round-down',
           handler: () => {
-            this.items = ListPage.addingHalleLetters(ListPage.sortELLAH(json));
+            this.items = ListPage.addingHalleLetters(Sort.sortELLAH(json));
           }
         },
         {
@@ -54,71 +56,39 @@ export class ListPage {
     }).then(ac => ac.present())
   }
 
-  ScrollToTop(){
+  openJumper() {
+    this.ActionSheetController.create({
+      header: 'Schnellwahl',
+      buttons: [
+        {
+          text: "Alphabetisch",
+          handler: () => {
+            ListPage.jump("A");
+          }
+        },
+        {
+          text: "Cancel",
+          role: 'cancel'
+        }
+      ]
+    }).then(ac => ac.present())
+  }
+
+  static jump(anchor) {
+    var url = location.href ;
+    location.href = url + "#" + anchor;
+    history.replaceState(null, null, url);
+  }
+
+  ScrollToTop() {
     this.content.scrollToTop(500);
-  }
-
-  static sortABC(array) {
-    return array.sort((a, b) => {
-      var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
-      var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
-      if (nameA < nameB) {
-        return -1;
-      }
-      if (nameA > nameB) {
-        return 1;
-      }
-      return 0;
-    })
-  }
-
-  static sortCBA(array) {
-    return array.sort((a, b) => {
-      var nameA = a.Name.toUpperCase(); // ignore upper and lowercase
-      var nameB = b.Name.toUpperCase(); // ignore upper and lowercase
-      if (nameA < nameB) {
-        return 1;
-      }
-      if (nameA > nameB) {
-        return -1;
-      }
-      return 0;
-    })
-  }
-
-  static sortHALLE(array) {
-    return array.sort((a, b) => {
-      var halleA = a.Halle.toUpperCase(); // ignore upper and lowercase
-      var halleB = b.Halle.toUpperCase(); // ignore upper and lowercase
-      if (halleA < halleB) {
-        return -1;
-      }
-      if (halleA > halleB) {
-        return 1;
-      }
-      return 0;
-    })
-  }
-
-  static sortELLAH(array) {
-    return array.sort((a, b) => {
-      var halleA = a.Halle.toUpperCase(); // ignore upper and lowercase
-      var halleB = b.Halle.toUpperCase(); // ignore upper and lowercase
-      if (halleA < halleB) {
-        return 1;
-      }
-      if (halleA > halleB) {
-        return -1;
-      }
-      return 0;
-    })
   }
 
   static addingAlphabeticLetters(array) {
     let newArray = [];
     let usedLetters = [];
     const startLength = array.length;
-    
+
     for (let i = 0; i < startLength; i++) {
       const firstLetter = array[i].Name.charAt(0).toUpperCase();
 
@@ -128,7 +98,7 @@ export class ListPage {
         newArray.push([firstLetter, []])
       }
       //[space] gets filled
-      newArray[usedLetters.length-1][1].push(array[i])
+      newArray[usedLetters.length - 1][1].push(array[i])
     }
     return newArray;
   }
@@ -137,7 +107,7 @@ export class ListPage {
     let newArray = [];
     let usedHallen = [];
     const startLength = array.length;
-    
+
     for (let i = 0; i < startLength; i++) {
       const firstHalle = array[i].Halle.toUpperCase();
 
@@ -145,7 +115,7 @@ export class ListPage {
         usedHallen.push(firstHalle)
         newArray.push([firstHalle, []])
       }
-      newArray[usedHallen.length-1][1].push(array[i])
+      newArray[usedHallen.length - 1][1].push(array[i])
     }
     console.log(newArray)
     return newArray;
