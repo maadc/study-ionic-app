@@ -1,5 +1,4 @@
-[
-  {
+[{
     "Name": "A-Team mit Herz",
     "Produkte": "Informationsstand über Haushaltsservice und Hausmeisterservice",
     "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
@@ -129,7 +128,13 @@
     "Name": "Bayer. Bauernverband",
     "Produkte": "Schweinemobil Tierzelt",
     "Kategorie": "Tierschauen, Tierbedarf",
-    "Halle": "Halle T, Freigelände"
+    "Halle": "Halle T"
+  },
+  {
+    "Name": "Bayer. Bauernverband",
+    "Produkte": "Schweinemobil Tierzelt",
+    "Kategorie": "Tierschauen, Tierbedarf",
+    "Halle": "Freigelände"
   },
   {
     "Name": "Bayerische Sportjugend BSJ",
@@ -189,7 +194,13 @@
     "Name": "Bohner Hans GmbH & Co. KG",
     "Produkte": "Anhänger, Arbeitsschutz, Speicher, Wärmepumpen, Bauelemente",
     "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
-    "Halle": "Halle K, Freigelände"
+    "Halle": "Freigelände"
+  },
+  {
+    "Name": "Bohner Hans GmbH & Co. KG",
+    "Produkte": "Anhänger, Arbeitsschutz, Speicher, Wärmepumpen, Bauelemente",
+    "Kategorie": "Bauen, Ausbau, Fertighäuser, Immobilien",
+    "Halle": "Halle K"
   },
   {
     "Name": "Boko Marc - Vertrieb",
@@ -237,13 +248,25 @@
     "Name": "Bundeswehr",
     "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
     "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
-    "Halle": "Halle F, Freigelände"
+    "Halle": "Freigelände"
   },
   {
     "Name": "Bundeswehr - Karriereberatung",
     "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
     "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
-    "Halle": "Halle F, Freigelände"
+    "Halle": "Freigelände"
+  },
+  {
+    "Name": "Bundeswehr",
+    "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
+    "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+    "Halle": "Halle F"
+  },
+  {
+    "Name": "Bundeswehr - Karriereberatung",
+    "Produkte": "Messestand der Bundeswehr mit Exponaten, Fahrzeuge der Bundeswehr",
+    "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+    "Halle": "Halle F"
   },
   {
     "Name": "Bündnis 90/ Die grünen Donau-Ries",
@@ -687,7 +710,13 @@
     "Name": "Heim & Haus Vertriebsgesellsch. für",
     "Produkte": "Markisen, Haustüren, Rollläden, Fenster, Vordächer",
     "Kategorie": "Altbau, Modernisierung",
-    "Halle": "Halle H, Freigelände"
+    "Halle": "Freigelände"
+  },
+  {
+    "Name": "Heim & Haus Vertriebsgesellsch. für",
+    "Produkte": "Markisen, Haustüren, Rollläden, Fenster, Vordächer",
+    "Kategorie": "Altbau, Modernisierung",
+    "Halle": "Halle H"
   },
   {
     "Name": "Heiss Jochen",
@@ -915,7 +944,13 @@
     "Name": "Landratsamt Donau-Ries",
     "Produkte": "Informationsstand",
     "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
-    "Halle": "Halle J, Halle D"
+    "Halle": "Halle J"
+  },
+  {
+    "Name": "Landratsamt Donau-Ries",
+    "Produkte": "Informationsstand",
+    "Kategorie": "Informationsstände, Dienstleistungen, Sonderschau",
+    "Halle": "Halle D"
   },
   {
     "Name": "Lang Schreinerei GmbH & Co.KG",
@@ -1047,7 +1082,13 @@
     "Name": "Münzinger Harald",
     "Produkte": "Restaurant Ochs am Spieß am 03. und 06.10.2019",
     "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
-    "Halle": "Halle L, Freigelände"
+    "Halle": "Freigelände"
+  },
+  {
+    "Name": "Münzinger Harald",
+    "Produkte": "Restaurant Ochs am Spieß am 03. und 06.10.2019",
+    "Kategorie": "Ausstellungsrestaurant, Getränkeausschank, Imbiss, Café",
+    "Halle": "Halle L"
   },
   {
     "Name": "Mutsch Naturseifen",
