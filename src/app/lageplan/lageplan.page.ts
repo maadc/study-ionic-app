@@ -6,6 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lageplan.page.scss'],
 })
 export class LageplanPage {
-  title = "Lageplan"
+  title = 'Lageplan';
 
 }

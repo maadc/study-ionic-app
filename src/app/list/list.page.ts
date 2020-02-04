@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import json from '../../assets/ausstellerverzeichnis/av.json';
 import { ActionSheetController, IonContent } from '@ionic/angular';
 
-import {Sort} from "./sort";
+import {Sort} from './sort';
 
 @Component({
   selector: 'app-list',
@@ -21,39 +21,39 @@ export class ListPage {
       header: 'Sortierung',
       buttons: [
         {
-          text: "Alphabetisch",
+          text: 'Alphabetisch',
           icon: 'arrow-round-up',
           handler: () => {
             this.items = ListPage.addingAlphabeticLetters(Sort.sortABC(json));
           }
         },
         {
-          text: "Alphabetisch",
+          text: 'Alphabetisch',
           icon: 'arrow-round-down',
           handler: () => {
             this.items = ListPage.addingAlphabeticLetters(Sort.sortCBA(json));
           }
         },
         {
-          text: "Hallen",
+          text: 'Hallen',
           icon: 'arrow-round-up',
           handler: () => {
             this.items = ListPage.addingHalleLetters(Sort.sortHALLE(json));
           }
         },
         {
-          text: "Hallen",
+          text: 'Hallen',
           icon: 'arrow-round-down',
           handler: () => {
             this.items = ListPage.addingHalleLetters(Sort.sortELLAH(json));
           }
         },
         {
-          text: "Cancel",
+          text: 'Cancel',
           role: 'cancel'
         }
       ]
-    }).then(ac => ac.present())
+    }).then(ac => ac.present());
   }
 
   openJumper() {
@@ -61,63 +61,62 @@ export class ListPage {
       header: 'Schnellwahl',
       buttons: [
         {
-          text: "Alphabetisch",
+          text: 'Alphabetisch',
           handler: () => {
-            ListPage.jump("A");
+            ListPage.jump('A');
           }
         },
         {
-          text: "Cancel",
+          text: 'Cancel',
           role: 'cancel'
         }
       ]
-    }).then(ac => ac.present())
-  }
-
-  static jump(anchor) {
-    var url = location.href ;
-    location.href = url + "#" + anchor;
-    history.replaceState(null, null, url);
+    }).then(ac => ac.present());
   }
 
   ScrollToTop() {
     this.content.scrollToTop(500);
   }
 
+  static jump(anchor) {
+    const url = location.href ;
+    location.href = url + '#' + anchor;
+    history.replaceState(null, null, url);
+  }
+
   static addingAlphabeticLetters(array) {
-    let newArray = [];
-    let usedLetters = [];
+    const newArray = [];
+    const usedLetters = [];
     const startLength = array.length;
 
     for (let i = 0; i < startLength; i++) {
       const firstLetter = array[i].Name.charAt(0).toUpperCase();
 
       if (!(usedLetters.includes(firstLetter))) {
-        usedLetters.push(firstLetter)
-        //push a new array => ["Letter", [space]]
-        newArray.push([firstLetter, []])
+        usedLetters.push(firstLetter);
+        // push a new array => ['Letter', [space]]
+        newArray.push([firstLetter, []]);
       }
-      //[space] gets filled
-      newArray[usedLetters.length - 1][1].push(array[i])
+      // [space] gets filled
+      newArray[usedLetters.length - 1][1].push(array[i]);
     }
     return newArray;
   }
 
   static addingHalleLetters(array) {
-    let newArray = [];
-    let usedHallen = [];
+    const newArray = [];
+    const usedHallen = [];
     const startLength = array.length;
 
     for (let i = 0; i < startLength; i++) {
       const firstHalle = array[i].Halle.toUpperCase();
 
       if (!(usedHallen.includes(firstHalle))) {
-        usedHallen.push(firstHalle)
-        newArray.push([firstHalle, []])
+        usedHallen.push(firstHalle);
+        newArray.push([firstHalle, []]);
       }
-      newArray[usedHallen.length - 1][1].push(array[i])
+      newArray[usedHallen.length - 1][1].push(array[i]);
     }
-    console.log(newArray)
     return newArray;
   }
 }
