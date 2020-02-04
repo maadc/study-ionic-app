@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.app",
+  "appName": "sta-wir-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
