@@ -19,5 +19,7 @@ Eime Ansicht über den aktuellen Lageplan.
 
 1. Download von GitHub
 2. `$ npm install`
-3. `$ ionic serve`  Für die Browserdarstellung
-4. `$ ionic build $ npx cap add android` Für mobile Version
+3. Browserdarstellung: `$ ionic serve`
+4. Mobile Version:   
+`$ ionic build`    
+ `$ npx cap add android`
