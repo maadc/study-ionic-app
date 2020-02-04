@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './lageplan.page.html',
   styleUrls: ['./lageplan.page.scss'],
 })
-export class LageplanPage{
+export class LageplanPage {
   title = "Lageplan"
 
 }
