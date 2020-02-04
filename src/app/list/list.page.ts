@@ -56,24 +56,6 @@ export class ListPage {
     }).then(ac => ac.present());
   }
 
-  openJumper() {
-    this.ActionSheetController.create({
-      header: 'Schnellwahl',
-      buttons: [
-        {
-          text: 'Alphabetisch',
-          handler: () => {
-            ListPage.jump('A');
-          }
-        },
-        {
-          text: 'Cancel',
-          role: 'cancel'
-        }
-      ]
-    }).then(ac => ac.present());
-  }
-
   ScrollToTop() {
     this.content.scrollToTop(500);
   }

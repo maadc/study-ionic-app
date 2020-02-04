@@ -4,13 +4,19 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      Ausstellerverzeichnis
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [scrollEvents]="true">
 
+  <div>
+    <ul id="scroll-nav">
+      <li *ngFor="let item of items"><a href=list#{{item[0]}}>{{item[0]}}</a></li>
+    </ul>
+  </div>
+  
   <ion-list>
     <ion-item-group *ngFor="let item of items">
       <ion-item-divider id={{item[0]}}>
@@ -40,11 +46,7 @@
       <ion-button (click)="openActionSheet()">
         <ion-icon slot="icon-only" name="settings"></ion-icon>
       </ion-button>
-      <ion-button (click)="openJumper()">
-        <ion-icon slot="icon-only" name="jet"></ion-icon>
-      </ion-button>
     </ion-buttons>
-    
     <ion-buttons slot="primary">
       <ion-button (click)="ScrollToTop()">
         <ion-icon slot="icon-only" name="arrow-round-up"></ion-icon>

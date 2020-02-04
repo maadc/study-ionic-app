@@ -1,0 +1,30 @@
+ul#scroll-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    overflow: scroll;
+}
+
+ul#scroll-nav li {
+    padding: 2px;
+}
+ul#scroll-nav li:first-of-type {
+    padding-left: 4px;
+}
+ul#scroll-nav li:last-of-type {
+    padding-right: 4px;
+}
+ul#scroll-nav li::after {
+    content: "|";
+    padding-left: 4px;
+}
+ul#scroll-nav li:last-of-type::after {
+    content: "";
+    padding: 0px;
+}
+ul#scroll-nav li > a {
+    color:#3d8835 ;
+    text-decoration-line: none; 
+    white-space: nowrap;
+}
