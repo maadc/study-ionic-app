@@ -25,6 +25,11 @@ export class AppComponent {
       title: 'Lageplan',
       url: '/lageplan',
       icon: 'navigate'
+    },
+    {
+      title: 'Programm',
+      url: '/programm',
+      icon: 'timer'
     }
   ];
 

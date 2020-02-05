@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'lageplan',
     loadChildren: () => import('./lageplan/lageplan.module').then( m => m.LageplanPageModule)
+  },
+  {
+    path: 'programm',
+    loadChildren: () => import('./programm/programm.module').then( m => m.ProgrammPageModule)
   }
 ];
 
