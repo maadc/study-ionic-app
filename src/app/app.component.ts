@@ -24,7 +24,7 @@ export class AppComponent {
     {
       title: 'Lageplan',
       url: '/lageplan',
-      icon: 'list'
+      icon: 'navigate'
     }
   ];
 
