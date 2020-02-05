@@ -60,12 +60,6 @@ export class ListPage {
     this.content.scrollToTop(500);
   }
 
-  static jump(anchor) {
-    const url = location.href ;
-    location.href = url + '#' + anchor;
-    history.replaceState(null, null, url);
-  }
-
   static addingAlphabeticLetters(array) {
     const newArray = [];
     const usedLetters = [];
