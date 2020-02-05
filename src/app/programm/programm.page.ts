@@ -15,4 +15,17 @@ export class ProgrammPage{
     this.content.scrollToTop(500);
   }
 
+  Akkordion(elementId){
+    debugger;
+    const element = document.getElementById(elementId);
+
+    element.classList.toggle("active");
+    var panel = element.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
 }

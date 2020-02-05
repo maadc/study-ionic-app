@@ -10,7 +10,22 @@
 </ion-header>
 
 <ion-content [scrollEvents]="true">
-
+  <div id="akkordion">
+    <button id="programm-1" class="accordion" (click)="Akkordion('programm-1')">Section 1</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button id="programm-2" class="accordion" (click)="Akkordion('programm-2')">Section 2</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button id="programm-3" class="accordion" (click)="Akkordion('programm-3')">Section 3</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+  </div>
 </ion-content>
 
 <ion-footer>
