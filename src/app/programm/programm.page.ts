@@ -16,11 +16,10 @@ export class ProgrammPage{
   }
 
   Akkordion(elementId){
-    debugger;
-    const element = document.getElementById(elementId);
-
+    const element: HTMLElement = document.getElementById(elementId);
     element.classList.toggle("active");
-    var panel = element.nextElementSibling;
+
+    const panel: any = element.nextElementSibling;
 
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
@@ -28,4 +27,5 @@ export class ProgrammPage{
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
   }
+
 }
