@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'programm',
     loadChildren: () => import('./programm/programm.module').then( m => m.ProgrammPageModule)
+  },
+  {
+    path: 'eintrittspreise',
+    loadChildren: () => import('./eintrittspreise/eintrittspreise.module').then( m => m.EintrittspreisePageModule)
   }
 ];
 

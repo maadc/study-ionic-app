@@ -30,6 +30,11 @@ export class AppComponent {
       title: 'Programm',
       url: '/programm',
       icon: 'timer'
+    },
+    {
+      title: 'Eintrittspreise',
+      url: '/eintrittspreise',
+      icon: 'wallet'
     }
   ];
 
