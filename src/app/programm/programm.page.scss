@@ -23,6 +23,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    hyphens: auto;
   }
 
   .accordion:after {
@@ -36,3 +37,15 @@
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+  .programm-thema-heading{
+    font-size: 1.75rem;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+ p.aussteller{
+   margin-bottom: 0.5rem;
+ }
+ p.ort-zeit{
+  font-size: 1.2rem;
+ }

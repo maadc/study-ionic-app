@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonContent, ActionSheetController } from '@ionic/angular';
+import { Tagesprogramm } from '../../assets/programm/tagesprogramm';
 
 @Component({
   selector: 'app-programm',
@@ -10,6 +11,7 @@ export class ProgrammPage{
   @ViewChild(IonContent, { static: false }) content: IonContent;
   constructor(private ActionSheetController: ActionSheetController) { }
   
+  programm = Tagesprogramm;
 
   ScrollToTop() {
     this.content.scrollToTop(500);
@@ -27,5 +29,4 @@ export class ProgrammPage{
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
   }
-
 }

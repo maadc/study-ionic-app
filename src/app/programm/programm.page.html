@@ -4,28 +4,34 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Programm
+      Tagesprogramm
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [scrollEvents]="true">
-  <div id="accordion-container">
-    <button id="programm-1" class="accordion" (click)="Akkordion('programm-1')">Section 1</button>
+  <div class="container">
+    <h2 class="h3">Das Tagesprogramm ist noch nicht final.</h2>
+    <p>Änderungen sind vorbehalten!</p>
+  </div>
+  <div class="accordion-container" *ngFor="let item of programm; let id = index;">
+    <button id=programm-{{id}} class="accordion" (click)="Akkordion('programm-'+id)">{{item[0]}}</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
-    
-    <button id="programm-2" class="accordion" (click)="Akkordion('programm-2')">Section 2</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
-    </div>
-    
-    <button id="programm-3" class="accordion" (click)="Akkordion('programm-3')">Section 3</button>
-    <div class="panel">
-      <p>Lorem ipsum...</p>
+      <ion-item *ngFor="let i of item[1]">
+        <ion-label class="ion-text-wrap">
+          <p class="programm-thema-heading"><b>{{i.Thema}}</b></p>
+          <div>
+            <p class="aussteller" *ngIf="i.Aussteller != ''"><b>Aussteller:</b> {{i.Aussteller}}</p>
+            <p class="ort-zeit">
+              <span *ngIf="i.Uhrzeit != ''">{{i.Uhrzeit}}</span> –
+              <span>{{i.Halle}}</span>
+            </p>
+          </div>
+        </ion-label>
+      </ion-item>
     </div>
   </div>
+
 </ion-content>
 
 <ion-footer>
