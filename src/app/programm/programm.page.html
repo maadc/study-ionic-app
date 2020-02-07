@@ -14,7 +14,7 @@
         <h2 class="h4">Alle Aktion in der Übersicht!</h2>
       </div>
   <div class="accordion-container" *ngFor="let item of programm; let id = index;">
-    <button id=programm-{{id}} class="accordion" (click)="Akkordion('programm-'+id)">{{item[0]}}</button>
+    <button id=programm-{{id}} class="accordion" (click)="Akkordion('programm-'+id)"><span>{{item[0]}}</span></button>
     <div class="panel">
       <ion-item *ngFor="let i of item[1]">
         <ion-label class="ion-text-wrap">

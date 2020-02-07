@@ -218,7 +218,7 @@ export const Tagesprogramm = [
             Thema: "Gewinnspiel Bonuskarte Dillingen",
             Halle: "Bühne Halle L"
           }],],
-    ["Donnerstag, 05. März &shy; Langer Donnerstag bis 19 Uhr", [
+    ["Donnerstag, 05. März – Langer Donnerstag bis 19 Uhr", [
         {
             Uhrzeit: "ganztägig",
             Aussteller: "'Amt für Jugend und Familie - Polizeiinspektion DillingenGesundheitsamt - Landratsamt Dillingen'",
