@@ -32,3 +32,4 @@ npm-debug.log*
 
 # User-specific
 /android
+/coverage
