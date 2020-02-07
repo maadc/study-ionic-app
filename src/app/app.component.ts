@@ -17,6 +17,11 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title: 'Themen',
+      url: '/themenplakate',
+      icon: 'paper'
+    },
+    {
       title: 'Aussteller',
       url: '/list',
       icon: 'list'
@@ -35,11 +40,6 @@ export class AppComponent {
       title: 'Eintrittspreise',
       url: '/eintrittspreise',
       icon: 'wallet'
-    },
-    {
-      title: 'Themen',
-      url: '/themenplakate',
-      icon: 'paper'
     }
   ];
 
