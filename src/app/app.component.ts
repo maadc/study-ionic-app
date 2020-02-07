@@ -35,6 +35,11 @@ export class AppComponent {
       title: 'Eintrittspreise',
       url: '/eintrittspreise',
       icon: 'wallet'
+    },
+    {
+      title: 'Themen',
+      url: '/themenplakate',
+      icon: 'paper'
     }
   ];
 

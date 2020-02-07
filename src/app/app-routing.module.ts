@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'eintrittspreise',
     loadChildren: () => import('./eintrittspreise/eintrittspreise.module').then( m => m.EintrittspreisePageModule)
+  },
+  {
+    path: 'themenplakate',
+    loadChildren: () => import('./themenplakate/themenplakate.module').then( m => m.ThemenplakatePageModule)
   }
 ];
 
