@@ -1,5 +1,5 @@
-import { Sort } from '../app/list/sort';
-import { ListPage } from '../app/list/list.page';
+import { Sort } from '../app/aussteller/sort';
+import { ListPage } from '../app/aussteller/aussteller.page';
 
 describe('sorting', () => {
     it('should sort the array A->B->C', () => {

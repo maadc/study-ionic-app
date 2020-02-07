@@ -23,7 +23,7 @@ export class AppComponent {
     },
     {
       title: 'Aussteller',
-      url: '/list',
+      url: '/aussteller',
       icon: 'list'
     },
     {

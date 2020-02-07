@@ -67,7 +67,7 @@ describe('AppComponent', () => {
     expect(menuItems.length).toEqual(6);
     expect(menuItems[0].getAttribute('ng-reflect-router-link')).toEqual('/home');
     expect(menuItems[1].getAttribute('ng-reflect-router-link')).toEqual('/themenplakate');
-    expect(menuItems[2].getAttribute('ng-reflect-router-link')).toEqual('/list');
+    expect(menuItems[2].getAttribute('ng-reflect-router-link')).toEqual('/aussteller');
     expect(menuItems[3].getAttribute('ng-reflect-router-link')).toEqual('/lageplan');
     expect(menuItems[4].getAttribute('ng-reflect-router-link')).toEqual('/programm');
     expect(menuItems[5].getAttribute('ng-reflect-router-link')).toEqual('/eintrittspreise');
