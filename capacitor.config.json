@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.app",
-  "appName": "sta-wir-app",
+  "appId": "io.ionic.starter",
+  "appName": "study-ionic-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
