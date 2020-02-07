@@ -333,7 +333,7 @@ export const Tagesprogramm = [
             Thema: "Tanzvorführung",
             Halle: "Bühne Halle R"
           }]],
-    ["Freitag, 06. März ", [
+    ["Freitag, 06. März – Seniorentag", [
         {
             Uhrzeit: "ganztägig",
             Aussteller: "'Fachbereich GesundheitLandratsamt Dillingen'",

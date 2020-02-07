@@ -10,10 +10,9 @@
 </ion-header>
 
 <ion-content [scrollEvents]="true">
-  <div class="container">
-    <h2 class="h3">Das Tagesprogramm ist noch nicht final.</h2>
-    <p>Änderungen sind vorbehalten!</p>
-  </div>
+    <div class="container">
+        <h2 class="h4">Alle Aktion in der Übersicht!</h2>
+      </div>
   <div class="accordion-container" *ngFor="let item of programm; let id = index;">
     <button id=programm-{{id}} class="accordion" (click)="Akkordion('programm-'+id)">{{item[0]}}</button>
     <div class="panel">
@@ -31,6 +30,9 @@
       </ion-item>
     </div>
   </div>
+  <div class="container">
+      <p>Änderungen und Ergänzungen vorbehalten!</p>
+    </div>
 
 </ion-content>
 
