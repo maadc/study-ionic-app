@@ -16,8 +16,11 @@ export class ProgrammPage{
   ScrollToTop() {
     this.content.scrollToTop(500);
   }
+  callAkkordion(elementId){
+    ProgrammPage.Akkordion(elementId);
+  }
 
-  static Akkordion(elementId){
+  static Akkordion(elementId){   
     const element: HTMLElement = document.getElementById(elementId);
     element.classList.toggle("active");
 
