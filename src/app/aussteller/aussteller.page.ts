@@ -16,6 +16,44 @@ export class ListPage {
 
   constructor(private ActionSheetController: ActionSheetController) { }
 
+
+  static addingAlphabeticLetters(array) {
+    const newArray = [];
+    const usedLetters = [];
+    const startLength = array.length;
+
+    for (let i = 0; i < startLength; i++) {
+      const firstLetter = array[i].Name.charAt(0).toUpperCase();
+
+      if (!(usedLetters.includes(firstLetter))) {
+        usedLetters.push(firstLetter);
+        // push a new array => ['Letter', [space]]
+        newArray.push([firstLetter, []]);
+      }
+      // [space] gets filled
+      newArray[usedLetters.length - 1][1].push(array[i]);
+    }
+    return newArray;
+  }
+
+  static addingHalleLetters(array) {
+    const newArray = [];
+    const usedHallen = [];
+    const startLength = array.length;
+
+    for (let i = 0; i < startLength; i++) {
+      const firstHalle = array[i].Halle.toUpperCase();
+
+      if (!(usedHallen.includes(firstHalle))) {
+        usedHallen.push(firstHalle);
+        newArray.push([firstHalle, []]);
+      }
+      newArray[usedHallen.length - 1][1].push(array[i]);
+    }
+    return newArray;
+  }
+
+
   openActionSheet() {
     this.ActionSheetController.create({
       header: 'Sortierung',
@@ -58,41 +96,5 @@ export class ListPage {
 
   ScrollToTop() {
     this.content.scrollToTop(500);
-  }
-
-  static addingAlphabeticLetters(array) {
-    const newArray = [];
-    const usedLetters = [];
-    const startLength = array.length;
-
-    for (let i = 0; i < startLength; i++) {
-      const firstLetter = array[i].Name.charAt(0).toUpperCase();
-
-      if (!(usedLetters.includes(firstLetter))) {
-        usedLetters.push(firstLetter);
-        // push a new array => ['Letter', [space]]
-        newArray.push([firstLetter, []]);
-      }
-      // [space] gets filled
-      newArray[usedLetters.length - 1][1].push(array[i]);
-    }
-    return newArray;
-  }
-
-  static addingHalleLetters(array) {
-    const newArray = [];
-    const usedHallen = [];
-    const startLength = array.length;
-
-    for (let i = 0; i < startLength; i++) {
-      const firstHalle = array[i].Halle.toUpperCase();
-
-      if (!(usedHallen.includes(firstHalle))) {
-        usedHallen.push(firstHalle);
-        newArray.push([firstHalle, []]);
-      }
-      newArray[usedHallen.length - 1][1].push(array[i]);
-    }
-    return newArray;
   }
 }
