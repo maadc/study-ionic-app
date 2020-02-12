@@ -2,7 +2,7 @@
 An [angular](https://angular.io) &amp; [ionic](https://ionicframework.com) project for university. Provided for mobile systems with [ionic-capacitor](https://capacitor.ionicframework.com).
 
 # Inhalt
-Eine App für eine lokale Verbrauchermesse in Dillingen. Thematische und inhaltliche Änderungen passieren im Messe-Geschäft täglich und bis kurz vor Eröffnung. Deshalb steht die akutelle Aussteller-Liste und das Tagesprogramm noch nicht zu Verfügung. **Ich griff deshalb teilweise auf Daten der letzten Messe 2018 zurück und fügte diese als Platzhalter ein.**
+Eine App für eine lokale Verbrauchermesse in Dillingen. Thematische und inhaltliche Änderungen passieren im Messe-Geschäft täglich und bis kurz vor Eröffnung. Deshalb steht die akutelle Aussteller-Liste und das Tagesprogramm noch nicht zu Verfügung. **Ich griff deshalb teilweise auf Daten anderer zurück und fügte diese als Platzhalter ein.**
 
 - Home: 
 Die Startseite. Eine Übersicht mit Text und allen wichtigen Informationen.
@@ -21,6 +21,13 @@ Das Tagesprogramm der Messe 2018. Es ist als Platzhalter eingebaut, sodass nur n
 
 - Eintrittspreise:
 Eine Übersichts-Tabelle mit den akutellen Preisen und Sparangeboten.
+
+## Material Dritter
+Die Rechte an Bild- und Textmaterial liegen ganz bei der [Josef Werner Schmid GmbH](https://www.jws.de).  
+Alle Materialien in `/assets` stammen von der Messeorganisationsfirma der WIR 2020. Hier noch ein Mal der ausdrückliche Hinweis, dass Aussteller-Liste und Tagesprogramm noch nicht veröffentlicht wurden und ich deshalb auf Material anderer Messen zurückgegriffen habe.
+### Material anderer Messen
+* Das Ausstellerverzeichnis ist von der [Donauries-Ausstellung 2019 in Nördlingen](https://www.donauries-ausstellung.de).
+* Das Tagesprogramm ist von der [WIR 2018 in Dillingen](https://www.wir-2018.de/tagesprogrammmenu) mit abgeänderten Daten.
 
 ---
 
