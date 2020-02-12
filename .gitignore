@@ -31,8 +31,10 @@ npm-debug.log*
 /www
 
 # User-specific
-## execlude ever android-file exept icon and splash-img
+
 /android/*
+
+## include icon and splash-img
 !android/app/
 /android/app/*
 !android/app/src/
@@ -42,4 +44,5 @@ npm-debug.log*
 !android/app/src/main/res/
 /android/app/src/main/res/**/*.xml
 
+# jest – test coverage
 /coverage
