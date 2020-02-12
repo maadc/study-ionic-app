@@ -31,5 +31,15 @@ npm-debug.log*
 /www
 
 # User-specific
-/android
+## execlude ever android-file exept icon and splash-img
+/android/*
+!android/app/
+/android/app/*
+!android/app/src/
+/android/app/src/*
+!android/app/src/main/
+/android/app/src/main/*
+!android/app/src/main/res/
+/android/app/src/main/res/**/*.xml
+
 /coverage
