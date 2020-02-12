@@ -81,7 +81,7 @@ Es wird durch jedes Objekt der Input-Array iteriert, dabei muss diese Array mit 
 
 In der 3D-Array werden einzelnen Objekte der Input-Array abgespeichert: `[{ Name: 'alpa' }, { Name: 'alpha' }]`.   
 Wenn das Programm merkt, dass nun ein neuer Anfangsbuchstabe vorkommt, wird eine neue 2D-Array generiert. Und der neue Anfangsbuchstabe darin gespeichert. Die 3D-Array wird mit allen Objekten gefüllt und der Vorgang beginnt von Neuen.   
-Raus kommt eine nach Buchstaben sortierte Array (siehe `outcome`)), die bereit zur Front-End-Ausgabe ist. 
+Raus kommt eine nach Buchstaben sortierte Array (siehe `outcome`), die bereit zur Front-End-Ausgabe ist. 
 
 
 Die vorgeschaltete Sortierung lässt sich dabei beliebig verändert. Wichtig ist nur das die Zwischenspeicherung in der Array-Manipulation angepasst wird. Aktuell sind Hallen und Namen vorgesehen.
