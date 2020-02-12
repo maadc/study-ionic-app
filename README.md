@@ -32,3 +32,28 @@ Eine Übersichts-Tabelle mit den akutellen Preisen und Sparangeboten.
 4. Mobile Version:   
 `$ ionic build`    
  `$ npx cap add android`
+
+ ---
+
+# Dokumentation
+ In dieser Studienarbeit wird eigentlich keine Dokumentation verlangt. Trotzdem gibt es einige Funktionen und Elemente denen ich eine Bühne geben möchte. Kurz drüber schreiben, den Aufwand und Weg beleuchten.
+
+
+## Seiten
+
+### /themenplakate
+Eine Übersicht der aktuellen Plakate mit Unterschrift. Erstellt mit der Komponente `ion-slides`.  
+Die Sliedes sind von `Swiper.js` abgekupfert. Ich habe es bei der Standart-Animation belassen, weil diese am Besten gepasst hat. Doch ich habe die Settings verändert.
+
+Ich habe den `freeMode` aktiviert. Das ermöglicht ein nahtloses Swipen zwischen den Plakaten. Toll ist auch die "Einrast-Funktion". So wird bei der Auswahl das nächst-mögliche Plakat ausgewählt.
+
+### /aussteller
+
+## Tests
+Ich habe die Test-Umgebung gewechselt. Die Standart-Tests von Ionic/Angular habe ich in `Jasmine-Karma` gelassen. `.spec.ts` ist die Endung dieser Dateien. Darin wird getestet, ob die Komponente erstellt wird und ob der Menü-Eintrag so ist, wie er sein sollte. 
+
+### Jest
+In einem früheren Projekt lernte ich die Umgebung `Jest` kennen. Ich bin auf dieses Umgeschwenkt. Von der Handhabung sind die beiden sehr ähnlich. Der große Unterschied war `jsdom`. Ich habe bei `Jest` eine einfache Möglichkeit mein DOM zu simulieren und zu testen.   
+
+Bei `Jasmine-Karma` war es sehr ungewohnt, weil diese Umgebung die HTML-Elemente in den Browser rendert und dort testet. So werden in der Übersicht lauter HTML-Elemente rein gerendert, die die eigentliche Sicht auf das Test-Ergebnis bedecken. Bei `Jest` wird das DOM nur in der `node`-Umgebung simuliert.   
+Das Testen hat damit viel einfacher funktioniert.
