@@ -34,10 +34,12 @@ Alle Materialien in `/assets` stammen von der Messeorganisationsfirma. Hier noch
 
 # Installation
 
-1. Download von GitHub
-2. `$ npm install`
-3. Browserdarstellung: `$ ionic serve`
-4. Mobile Version:   
+1. `$ git clone [url]`
+3. `$ npm install -g @ionic/cli`
+4. `$ npm install -g @angular/cli`
+5. `$ npm install`
+6. Browserdarstellung: `$ ionic serve`
+7. Mobile Version:   
 `$ ionic build`    
  `$ npx cap add android`
 
