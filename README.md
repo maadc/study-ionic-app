@@ -42,7 +42,7 @@ Alle Materialien in `/assets` stammen von der Messeorganisationsfirma. Hier noch
 7. Mobile Version:   
 `$ ionic build`    
  `$ npx cap add android`
-
+8. Kopieren der Datein: android-res in /android/src/main/res
  ---
 
 # Dokumentation
